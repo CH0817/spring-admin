@@ -1,0 +1,13 @@
+server:
+  port: 8120
+spring:
+  application:
+    name: spring-admin
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
